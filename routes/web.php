@@ -15,6 +15,7 @@
 //    'todos' => 'TodosController'
 //]);
 
+Route::get('/', 'TodosController@home')->name('todos.home');
 Route::get('/todos', 'TodosController@index')->name('todos.index');
 Route::post('/todos', 'TodosController@store')->name('todos.store');
 Route::get('/todos/create', 'TodosController@create')->name('todos.create');

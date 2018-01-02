@@ -10,7 +10,6 @@
                             <a class="col-sm-8 " href="{{route('todos.show', ['id'=>$todo->id])}}">
                                 {{$todo->todo}}
                             </a>
-                            <span class="btn btn-danger">x</span>
                             <span class="btn btn-info btn-sm">i</span>
                             <span class="btn btn-success btn-sm">√</span>
                         </div>
